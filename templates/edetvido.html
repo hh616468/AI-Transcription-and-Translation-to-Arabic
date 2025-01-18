@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <title>Language Choose</title>
+    <link rel="stylesheet" href="static/css/edet.css">
+    
+    <!-- FONT Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+    
+
+
+    <section class="show-video content--canvas">
+
+        <h1>Choose Language :</h1>
+
+        <div class="contenor">
+    
+
+           
+
+
+          <div id="loading-indicator" class="loader">
+            <span>Loading...</span>
+        </div>
+
+              <div class="inputs">
+                
+
+                <div class="boxs">
+
+                <div class="box frombox">
+                  
+                  <div class="heading">
+                    <h1>Translate From</h1>
+                  </div>
+                
+                  
+                    <div class="radio-input">
+
+                      <div class="label">
+                        <input type="radio" id="English"  name="lange" value="en" />
+                        <p class="text">English</p>
+                      </div>
+                  
+                      <div class="label">
+                        <input type="radio" id="Spanish" name="lange" value="es" />
+                        <p class="text">Spanish</p>
+                      </div>
+                  
+                      <div class="label">
+                        <input type="radio" id="Japanesse" name="lange" value="fr" />
+                        <p class="text">French</p>
+                      </div>
+
+
+                      <div class="label script-background">
+                        <input type="radio" id="Auto Detect" checked="" name="lange" value="auto-detect" />
+                        <p class="text">Auto Detect</p>
+                      </div>
+                  
+                    </div>
+                  
+
+                  </div>
+                  
+                  <div class="box boxto">
+                    <div class="heading">
+                      <h1>To</h1>
+                    </div>
+                    
+                    <div class="arabic">
+                    <div class="radio-input">
+                        
+                        <label class="label sscript-background2">
+                          <input type="radio" id="ARABIC" checked="" name="arabic-radio" value="ARABIC" />
+                          <p class="text">Arabic</p>
+                        </label>
+                  
+                    </div>
+                  </div>
+
+                  
+                  <div  id="sentbutton" class="abs-button">
+                    <button id="sentbutton" class="animated-button">
+                      <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                        ></path>
+                      </svg>
+                      <span class="text">Send</span>
+                      <span class="circle"></span>
+                      <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z"
+                        ></path>
+                      </svg>
+                    </button>
+  
+                  </div>
+                  </div>
+
+                  </div>
+
+                  
+              </div>
+
+            
+              
+              
+              
+
+<!--             
+            <div class="vedios">
+
+            
+              <div class="videocontenor">
+                <video id="video-tag"  class="video-label" width="400px" height="600px" 
+                controls >
+                <source id="source-video" src="/img/Billie Eilish - BIRDS OF A FEATHER (Official Music Video).mp4">
+                <track
+                id="subtitle-track"
+                label="Englesh"
+                kind="subtitles"
+                srclang="en"
+                src="/suits - Cinema Box.vtt"
+                />
+              
+              </video>
+            </div>
+         
+
+            <div class="edetsubtitles">
+              
+              <div class="in-icon">
+                <div class="Color">
+                  <i id="2" class="fa-solid fa-eye-dropper"></i>
+                </div>
+
+                <div class="Size">
+                  <i id="3" class="fa-solid fa-text-height"></i>
+                </div>
+
+
+                <div class="Fonts">
+                  <i id="5"  class="fa-solid fa-font"></i>
+                </div>
+
+                <div  class="background">
+                  <i id="6" class="fa-solid fa-circle-half-stroke"></i>
+                </div>
+              </div>
+
+
+              <div class="subcontenor">
+
+
+                <div id="4" class="color">
+                  <input type="color"  value="#ffffff" name="color" id="color">
+                  <div class="title">
+                    <h2 style="color:#fff">color of transcription</h2>
+                  </div>
+                </div>
+
+
+                <div id="9" class="rangeconteonr">
+                    <label class="slider">
+                      <input type="range" id="size" class="level" step="5" min="15" value="25" />
+                    </label>
+                    <h2 style="color:#fff">size of transcription</h2>
+                </div>
+
+                <div id="25" class="select">
+                  <select name="select" id="select">
+                    <option selected value="1">font 1</option>
+                    <option value="2">font 2</option>
+                    <option value="3">font 3</option>
+                    <option value="4">font 4</option>
+                  </select>
+                  <div class="headingofselect">
+                    <h2 style="color:#fff">select type of font</h2>
+                  </div>
+                </div>
+
+                <div id="36" class="switchcontor">
+
+                <label  class="switch">
+                  <input type="checkbox" id="checkbox" class="input">
+                  <span class="sliderr"></span>
+                </label>
+                  <h2 style="color: #fff;">background of transcription</h2>
+              </div>
+
+              </div>
+            </div>
+
+
+
+           </div> -->
+
+
+        </div>
+
+    </section>
+
+
+
+
+      <!-- <script src="static/js/video22.js"></script> -->
+      <!-- <script src="static/js/vedio.js"></script>   -->
+      <script src="static/js/main.js"></script>
+      
+      <script src="static/js/languge.js"></script>
+
+      <script src="static/js/noise.min.js"></script>
+      <script src="static/js/util.js"></script>
+      <script src="static/js/swirl.js"></script>
+  
+</body>
+</html>

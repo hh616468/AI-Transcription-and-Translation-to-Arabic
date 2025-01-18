@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="main.css"> -->
+    <title>Video Player</title>
+    <link rel="stylesheet" href="static/css/edet.css">
+    
+    <!-- FONT Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+    
+
+
+    <section class="show-video content--canvas">
+
+        <h1>video Edet</h1>
+
+        <div class="contenor">
+    
+
+           
+
+
+          <div class="loader">
+            <span>Loading...</span>
+        </div>
+
+              
+              
+              
+
+            
+            <div class="vedios">
+
+            
+              <div class="videocontenor">
+<!-- src="/img/Billie Eilish - BIRDS OF A FEATHER (Official Music Video).mp4" -->
+                <video id="video-tag"  class="video-label" width="400px" height="600px" 
+                controls >
+                <source id="source-video" src="/img/Billie Eilish - BIRDS OF A FEATHER (Official Music Video).mp4">
+                <track
+                id="subtitletrack"
+                label="Englesh"
+                kind="subtitles"
+                srclang="en"
+                src="/suits - Cinema Box.vtt"
+                />
+              
+              </video>
+            </div>
+         
+
+            <div class="edetsubtitles">
+              
+              <div class="in-icon">
+                <div class="Color">
+                  <i id="2" class="fa-solid fa-eye-dropper"></i>
+                </div>
+
+                <div class="Size">
+                  <i id="3" class="fa-solid fa-text-height"></i>
+                </div>
+
+
+                <div class="Fonts">
+                  <i id="5"  class="fa-solid fa-font"></i>
+                </div>
+
+                <div  class="background">
+                  <i id="6" class="fa-solid fa-circle-half-stroke"></i>
+                </div>
+              </div>
+
+
+              <div class="subcontenor">
+
+
+                <div id="4" class="color">
+                  <input type="color"  value="#ffffff" name="color" id="color">
+                  <div class="title">
+                    <h2 style="color:#fff">Subtitle Color</h2>
+                  </div>
+                </div>
+
+
+                <div id="9" class="rangeconteonr">
+                    <label class="slider">
+                      <input type="range" id="size" class="level" step="5" min="15" value="25" />
+                    </label>
+                    <h2 style="color:#fff">Subtitle Size</h2>
+                </div>
+
+                <div id="25" class="select">
+                  <select name="select" id="select">
+                    <option selected value="1">font 1</option>
+                    <option value="2">font 2</option>
+                    <option value="3">font 3</option>
+                    <option value="4">font 4</option>
+                  </select>
+                  <div class="headingofselect">
+                    <h2 style="color:#fff">Font Type</h2>
+                  </div>
+                </div>
+
+                <div id="36" class="switchcontor">
+
+                <label  class="switch">
+                  <input type="checkbox" id="checkbox" class="input">
+                  <span class="sliderr"></span>
+                </label>
+                  <h2 style="color: #fff;">Toggle Text-background</h2>
+              </div>
+
+              </div>
+            </div>
+
+
+
+           </div>
+
+
+        </div>
+
+    </section>
+      <script src="static/js/video22.js"></script>
+      <script src="static/js/vedio.js"></script>  
+      <script src="static/js/main.js"></script>
+      <script src="static/js/noise.min.js"></script>
+      <script src="static/js/video.js"></script>
+      <script src="static/js/util.js"></script>
+      <script src="static/js/swirl.js"></script>
+      
+  
+</body>
+</html>
